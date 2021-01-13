@@ -160,21 +160,21 @@ export default class DashboardView extends React.Component {
     let settingsSections = [];
 
     // Settings - nothing remotely like this in parse-server yet. Maybe it will arrive soon.
-    /*
-    if (features.generalSettings) {
+    
+ //   if (features.generalSettings) {
       settingsSections.push({
         name: 'General',
         link: '/settings/general'
       });
-    }
+  //  }
 
-    if (features.keysSettings) {
+  //  if (features.keysSettings) {
       settingsSections.push({
         name: 'Security & Keys',
         link: '/settings/keys'
       });
-    }
-
+  //  }
+/*
     if (features.usersSettings) {
       settingsSections.push({
         name: 'Users',
