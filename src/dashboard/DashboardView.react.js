@@ -118,44 +118,44 @@ export default class DashboardView extends React.Component {
     let analyticsSidebarSections = [];
 
     //These analytics pages may never make it into parse server
-    /*
-    if (...) {
+    
+  //  if (...) {
       analyticsSidebarSections.push({
         name: 'Overview',
         link: '/analytics/overview'
       });
-    }
+ //   }
 
-    if (...) {
+  //  if (...) {
       analyticsSidebarSections.push({
         name: 'Explorer',
         link: '/analytics/explorer'
       });
-    }*/
+  //  }
 
     //These ones might, but require some endpoints to added to Parse Server
-    /*
-    if (features.analytics && features.analytics.retentionAnalysis) {
+    
+   // if (features.analytics && features.analytics.retentionAnalysis) {
       analyticsSidebarSections.push({
         name: 'Retention',
         link: '/analytics/retention'
       });
-    }
+   // }
 
-    if (features.analytics && features.analytics.performanceAnalysis) {
+  //  if (features.analytics && features.analytics.performanceAnalysis) {
       analyticsSidebarSections.push({
         name: 'Performance',
         link: '/analytics/performance'
       });
-    }
+  //  }
 
-    if (features.analytics && features.analytics.slowQueries) {
+ //   if (features.analytics && features.analytics.slowQueries) {
       analyticsSidebarSections.push({
         name: 'Slow Queries',
         link: '/analytics/slow_queries'
       });
-    }
-    */
+ //   }
+    
 
     let settingsSections = [];
 
@@ -174,27 +174,27 @@ export default class DashboardView extends React.Component {
         link: '/settings/keys'
       });
   //  }
-/*
-    if (features.usersSettings) {
+
+   // if (features.usersSettings) {
       settingsSections.push({
         name: 'Users',
         link: '/settings/users'
       })
-    }
+   // }
 
-    if (features.pushSettings) {
+  //  if (features.pushSettings) {
       settingsSections.push({
         name: 'Push',
         link: '/settings/push'
       });
-    }
+   // }
 
-    if (features.hostingEmailsSettings) {
+  //  if (features.hostingEmailsSettings) {
       settingsSections.push({
         name: 'Hosting and Emails',
         link: '/settings/hosting'
       });
-    }*/
+  //  }*/
 
     let appSidebarSections = []
 
